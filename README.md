@@ -65,10 +65,30 @@ It also provides a dedicated interface for trainers to manage and publish new wo
 - **DTO Mapping** – Data transfer between layers
 - **H2 / MySQL** – Local and production databases
 
+---
+
+## 📸 Screenshots
+
+### Login Process  
+<img src="https://github.com/user-attachments/assets/021a8c1d-c893-4ad0-8997-1c22b0228398" width="250"/>  
+<img src="https://github.com/user-attachments/assets/c3b1a5ad-725c-454c-a62c-b0eeeddf3d4a" width="250"/>  
+<img src="https://github.com/user-attachments/assets/eef61615-0c11-4148-b87f-7aeb1b9a67e3" width="250"/>
+
+### Display of Workouts and Categories  
+<img src="https://github.com/user-attachments/assets/a8212ac2-78bd-4240-bce9-363284c7dc54" width="250"/>  
+<img src="https://github.com/user-attachments/assets/f0f994fa-d6bb-463b-8ec7-b20fdec3a53f" width="250"/>  
+<img src="https://github.com/user-attachments/assets/9a6632f0-3681-432e-bfeb-955d104a915b" width="250"/>
+
+### Booking a Workout and Email Notification if Not Available  
+<img src="https://github.com/user-attachments/assets/586aeebd-aeaa-49ea-b525-827de4a7fe70" width="250"/>  
+<img src="https://github.com/user-attachments/assets/a9695e06-1c0b-49d3-9bd4-862e7757ea07" width="250"/>
+
+### Personal Area  
+<img src="https://github.com/user-attachments/assets/57e836ae-2fd3-4de5-8447-901a583926f3" width="250"/>
+
+---
+
 ## 📞 Contact
 
 For questions, suggestions, or support:  
 📧 fitfindersite@gmail.com
-
-
-
