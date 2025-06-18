@@ -1,0 +1,149 @@
+.contact-container {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 300px;
+  background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+}
+
+.contact-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.arrow {
+  font-size: 20px;
+  transition: transform 0.3s;
+}
+
+.contact-details {
+  padding: 10px 0;
+  transition: 0.5s ease-in-out; 
+
+}
+
+
+
+.arrow.open {
+  transform: rotate(180deg); /* החץ מסתובב */
+}
+
+
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  position: relative;
+  font-size: 50px; /* Icon size */
+  cursor: pointer;
+  display: "flex";
+  justify-content: " space-between";
+  margin-top: -3.7vh;
+  margin-right: 1vw;
+}
+
+.label {
+  position: absolute;
+  top: -10px;  /* Position label at the top right of the icon */
+  right: -10px;
+  background-color: rgba(0, 0, 0, 0.7); /* Background color for the label */
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 12px;
+  opacity: 0; /* Initially hidden */
+  pointer-events: none; /* Disable interaction with the label */
+  transition: opacity 0.3s ease; /* Smooth transition when showing/hiding */
+}
+
+.icon:hover .label {
+  opacity: 1; /* Show label on hover */
+}
+p{
+  margin: 0;
+}
+.cardDetails{
+display: flex;
+justify-content: space-between;
+margin-right: 20vw;
+ background-color: white;
+ height: 100%;
+ box-shadow: 0 4px 8px 0 rgb(0 0 0 / 43%), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+ border-radius: 10px;
+ 
+}
+.cardDetails {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon-container {
+  display: flex;
+  align-items: center;
+  margin-top: -1vh;
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.contact-container {
+  margin-top: 20px;
+}
+
+.contact-header {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.arrow.open {
+  transform: rotate(180deg);
+  transition: transform 0.3s ease;
+}
+
+.feedback-container {
+  max-height: 300px; /* גובה מקסימלי עבור הגלילה */
+  border: 1px solid #ccc; /* גבול מסביב לדיב */
+  border-radius: 8px; /* פינות מעוגלות */
+  padding: 10px;
+  overflow-y: auto; /* גלילה אנכית */
+  margin-left: -28vw;
+  margin-top: 21vh;
+}
+
+
+/* הסתרת סרגל הגלילה */
+.feedback-container::-webkit-scrollbar {
+  width: 0px; /* רוחב 0 כדי להסתיר */
+}
+
+.feedback-container {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+/* button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+} */
+
+/* button:hover {
+  background-color: #45a049;
+} */

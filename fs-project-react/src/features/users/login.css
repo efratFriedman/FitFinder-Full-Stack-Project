@@ -1,0 +1,11 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 81vh;
+    background: linear-gradient(90deg, #ff6f61, #ffb74d);
+    padding-left: 10vw;
+    padding-right: 10vw;
+    border-radius: 2vw;
+  }
+  
